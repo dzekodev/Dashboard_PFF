@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="fonts.js"></script>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="Schedul.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="center">
+            <img src="images/logo.png" alt="Logo" srcset="">
+            <div class="info">
+                <b>C.F.H.N</b>
+                <p>CFHN@ofppt-edu.ma</p>
+            </div>
+        </div>
+        <div class="search">
+            <i id="SearchIcon" class="fas fa-search"></i>
+            <input type="text" id="searchText" name="searchText" placeholder="Search for people, document, goods...">
+        </div>
+        <div class="icons">
+            <i id="notificationIcon" class="far fa-bell"></i>
+            <i id="settingIcon" class="far fa-cogs"></i>
+        </div>
+        <div class="user">
+            <div class="info">
+                <b>Zakariae Redouane</b>
+                <p>Redouane.Zakariae@ofppt-edu.ma</p>
+            </div>
+            <img src="images/profile-pic.jpg" alt="profile-pic">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="navigationList">
+            <ul>
+                <li>
+                    <i id="ListIcons" class="fas fa-qrcode"></i>
+                    <p >Dashboard</p>
+                </li> 
+                <li> 
+                    <i id="ListIcons" class="fal fa-comment-dots"></i>
+                    <p >Team Chat</p>
+                </li> 
+                <li> 
+                    <i id="ListIcons" class="far fa-calendar-minus"></i>
+                    <p >Calender</p>
+                </li> 
+                <li> 
+                    <i id="ListIcons" class="fal fa-folder-minus"></i>
+                    <p >Documents</p>
+                </li> 
+                <li> 
+                    <i id="ListIcons" class="fas fa-store"></i>
+                    <p >Store</p>
+                </li> 
+            </ul> 
+            <ul> 
+                <li> 
+                    <i id="ListIcons" class="far fa-cogs"></i>
+                    <p >Settings</p>
+                </li> 
+                <li> 
+                    <i id="ListIcons" class="fas fa-power-off"></i>
+                    <p>Log out</p>
+                </li>
+            </ul>
+        </div>
+        <div class="dashboard">
+            <div class="titles">
+                <h1>Dashboard</h1>
+                <p>Whole data about you and your education.</p>
+            </div>
+            <div class="firstPart">
+                <div class="curve">
+                    <div class="top">
+                        <h1>My GPA Balance</h1>
+                        <div id="icoico">
+                            <i id="increase" class="fal fa-chart-line"></i>
+                        </div>
+                        <b>+3</b>
+                        <div>
+                            <div class="active-cirle"></div>
+                            <p>This week</p>
+                            <div class="sleep-cirle"></div>
+                            <p>Last week</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="images/curve.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="activities">
+                    <div class="presence">
+                        <div id="icoico">                        
+                            <i id="ico"  class="fal fa-users-class"></i>
+                        </div>
+                        <span>
+                            <h1>92%</h1>
+                            <p>Presence</p>
+                        </span>
+                        <b>?</b>
+                    </div>
+                    <div class="team">
+                        <div>
+                            <div id="icoico">                        
+                                <i id="ico" class="fab fa-teamspeak"></i>
+                            </div>
+                            <span>
+                                <h1>67%</h1>
+                                <p id="pp">Team Activities</p>
+                            </span>
+                            <b>?</b>
+                        </div>
+                        <div>
+                            <img src="images/teenager.png" alt="" srcset="">
+                            <img src="images/profile-pic.jpg" alt="" srcset="">
+                            <img src="images/profile (1).png" alt="" srcset="">
+                            <img src="images/profile (2).png" alt="" srcset="">
+                            
+                        </div>
+                        <div>
+                            <i id="icon" class="fal fa-chevron-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondPart">
+                <div class="Schedul-Table" id="Schedul-Table">
+                    <h1>Schedule</h1>
+                    <table>
+                        <tr>
+                            <th>Heures / Jours</th>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                            <th>Samedi</th>
+                        </tr>
+                        <tr>
+                            <td >08:30 -> 11:00</td>
+                            <td>Developement Coté client</td>
+                            <td ></td>
+                            <td>Database SQL</td>
+                            <td>Developement Coté Server</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11:00 -> 13:30</td>
+                            <td>Database SQL</td>
+                            <td>Soft Skills</td>
+                            <td>English</td>
+                            <td>Developement Coté Server</td>
+                            <td></td>
+                            <td>Developement Coté client</td>
+                        </tr>
+                        <tr>
+                            <td>13:30 -> 16:00</td>
+                            <td></td>
+                            <td>Soft Skills</td>
+                            <td></td>
+                            <td>Developement Coté Server</td>
+                            <td>English</td>
+                            <td>Database SQL</td>
+                        </tr>
+                        <tr>
+                            <td>16:00 -> 18:30</td>
+                            <td>Developement Coté client</td>
+                            <td>E-Commerce</td>
+                            <td>English</td>
+                            <td>Developement Coté Server</td>
+                            <td>Soft Skills</td>
+                            <td>Database SQL</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="top">
+                <p>+</p>
+                <p>Your Moduls</p>
+                <i id="MenuIcon" class="fad fa-ellipsis-v"></i>
+            </div>
+            <div class="module">
+                <div>
+                    <img src="images/Developer activity-bro.svg" alt="">
+                    <p>web development</p>
+                </div>
+                <div id="info">180h With The Trainee Nawal Amourga</div>
+                <div>
+                    <div id="fin">Fin : 14/05/21</div>
+                    <div id="red"></div>
+                </div>
+                <div class="Next">
+                    <i id="NextIcon" class="fal fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
